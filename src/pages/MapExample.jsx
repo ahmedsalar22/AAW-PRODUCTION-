@@ -1,4 +1,4 @@
-import React from "react";
+
 import Contraband from "../components/Description/Contraband";
 import MainSlider from "../components/Description/MainSlider";
 import Description from "../components/Description/description";
