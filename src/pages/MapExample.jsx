@@ -1,10 +1,11 @@
 
 import Contraband from "../components/Description/Contraband";
 import MainSlider from "../components/Description/MainSlider";
-import Description from "../components/Description/description";
+
 import Icon from "../components/Description/Icon";
 import ReviwesTipsMain from "../components/Description/ReviwesTipsMain";
 import ReviewForm from "../components/Description/ReviewForm";
+import Description from "../components/Description/description";
 
 
 const MapExample = () => {
