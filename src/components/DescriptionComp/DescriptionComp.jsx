@@ -1,16 +1,17 @@
-import React from 'react'
 
+import PropTypes from "prop-types";
 
-const DescriptionComp = ({value}) => {
+const DescriptionComp = ({ value }) => {
   return (
-    <>
-    <div className="border p-3 shadow-sm rounded text-center ">
-    
-    {value}
-      
+    <div className="border p-3 shadow-sm rounded text-center">
+      {value}
     </div>
-    </>
-  )
-}
+  );
+};
 
-export default DescriptionComp
+// ✅ Add PropTypes validation (JS version)
+DescriptionComp.propTypes = {
+  value: PropTypes.string.isRequired,
+};
+
+export default DescriptionComp;
