@@ -6,7 +6,7 @@ import Layout from "./components/layout";
 import Aboutus from "./pages/Aboutus";
 
 import Categories from "./pages/Categories";
-import MapExample from "./pages/Mapexample";
+import MapExample from "./pages/MapExample";
 
 function App() {
   return (
